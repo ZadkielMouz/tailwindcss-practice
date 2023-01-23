@@ -20,7 +20,10 @@ export const AppRouter = () => {
                 <Route path="Login-Modal" element= { <LoginModal /> } />,
 
             ]
-        )
+        ),
+        {
+            basename: '/tailwindcss-practice/'
+        }
     );
 
     return (
